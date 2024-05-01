@@ -1,0 +1,9 @@
+:host {
+  .cards-list-wrapper {
+    width: 800px;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}

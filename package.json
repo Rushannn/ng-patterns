@@ -1,8 +1,10 @@
 {
-  "name": "@angular-patterns/source",
+  "name": "angular-patterns",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "npx nx run angular-patterns:serve "
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.3.0",
