@@ -1,4 +1,4 @@
-export type TaskStatus = "backlog" | "in_progress" | "review" | "completed" | "empty";
+export type TaskStatus = "backlog" | "in_progress" | "review" | "completed" |"test" | "empty";
 
 export interface Task {
   title: string;
@@ -36,6 +36,12 @@ export const taskStatusInfoMap: Record<TaskStatus, StatusInfo> = {
     name: 'На проверке',
     iconPath: '/assets/images/icons/time-icon.svg',
     color: '#FF9800',
+  },
+  "test": {
+    type: "test",
+    name: 'В тестировании',
+    iconPath: '/assets/images/icons/time-icon.svg',
+    color: 'red',
   },
   "empty": {
     type: "empty",

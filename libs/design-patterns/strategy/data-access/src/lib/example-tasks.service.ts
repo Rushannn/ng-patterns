@@ -10,7 +10,7 @@ export class ExampleTaskService {
   private tasks: Task[] = [
     { title: 'Задача 1', status: "backlog" },
     { title: 'Задача 2', status: "review" },
-    { title: 'Задача 3', status: "in_progress" },
+    { title: 'Задача 3', status: "test" },
     { title: 'Задача 4', status: "in_progress" },
     { title: 'Задача 5', status: "review" },
     { title: 'Задача 6', status: "completed" },
