@@ -1,10 +1,10 @@
 /* eslint-disable */
 export default {
-  displayName: 'tasks-list',
+  displayName: 'strategy-data-access',
   preset: '../../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   coverageDirectory:
-    '../../../../coverage/libs/design-patterns/strategy/example',
+    '../../../../coverage/libs/design-patterns/strategy/data-access',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

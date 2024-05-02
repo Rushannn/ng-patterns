@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@design-patterns/strategy/data-access": [
+        "libs/design-patterns/strategy/data-access/src/index.ts"
+      ],
       "@design-patterns/strategy/example": [
         "libs/design-patterns/strategy/example/src/index.ts"
       ]

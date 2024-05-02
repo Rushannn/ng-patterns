@@ -1,0 +1,26 @@
+<div class="item-wrapper">
+  <ng-container *ngIf="task.status !== 'empty'">
+    <div
+      class="item-status-label"
+      [ngStyle]="{ 'background-color': taskStatusInfoMap[task.status].color }"
+    >
+      <img
+        [src]="taskStatusInfoMap[task.status].iconPath"
+        alt=""
+        width="12"
+        height="12"
+      />
+      <span>{{ taskStatusInfoMap[task.status].name }}</span>
+    </div>
+  </ng-container>
+
+  <span class="item-title"> {{task.title}}</span>
+
+  <button
+    type="Submit"
+    class="item-btn"
+    *ngIf="!['completed', 'backlog'].includes(task.status)"
+  >
+    Submit
+  </button>
+</div>

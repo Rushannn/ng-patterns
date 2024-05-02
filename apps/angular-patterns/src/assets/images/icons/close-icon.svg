@@ -1,9 +1,0 @@
-<svg width="12px" height="12px" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <mask id="crossMask">
-            <rect width="100%" height="100%" fill="white"/>
-            <path d="M3 3l6 6M3 9l6 -6" stroke="black" fill="none" stroke-width="1.5"/>
-        </mask>
-    </defs>
-    <circle cx="6" cy="6" r="6" fill="white" mask="url(#crossMask)"/>
-</svg>

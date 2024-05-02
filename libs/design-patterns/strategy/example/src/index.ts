@@ -1,1 +1,1 @@
-export * from './lib/cards-list.component';
+export * from './lib/tasks-list.component';

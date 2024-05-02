@@ -1,9 +1,10 @@
 :host {
   .item-wrapper {
-    height: 100px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid black;
@@ -16,9 +17,25 @@
       border-radius: 5px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       background-color: cadetblue;
+      font-size: 15px;
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.5;
+      letter-spacing: 0.5px;
     }
 
-    .item-btn{
+    .item-title {
+      font-size: 18px;
+      color: #333;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      line-height: 1.4;
+      letter-spacing: 0.2px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .item-btn {
       margin-top: auto;
     }
   }

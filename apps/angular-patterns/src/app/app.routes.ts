@@ -8,6 +8,6 @@ export const appRoutes: Route[] = [
   },
   {
     path: 'strategy',
-    loadComponent: () => import('@design-patterns/strategy/example').then((m) => m.CardsListComponent),
+    loadComponent: () => import('@design-patterns/strategy/example').then((m) => m.TasksListComponent),
   },
 ];
